@@ -1,0 +1,191 @@
+<template>
+  <div id="pageInfo">
+    <div class="site-navi">
+      <div class="container"><a href="/">topページ</a><span class="arrow">></span><a>インフォメーション</a></div>
+    </div>
+    <div id="sec_concept">
+      <div class="concept_textarea">
+        <div class="container"></div>
+        <h1 class="concept_heading">
+          <div><span>イラストクリップの</span></div>
+          <div><span>コンセプト</span></div>
+        </h1>
+        <p class="concept_description">イラストクリップは、イラスト素材を無料で提供するサイトです。<br/>ストーリー構成に合わせやすい表情豊かなイラストをセットで提供することを心がけています。</p>
+      </div>
+      <div class="concept_images">
+        <div class="container"><img class="illust_clip" src="/img/clip.svg"/>
+          <div class="circle01s"></div>
+          <div class="circle02s"></div>
+          <div class="circle03s"></div>
+          <div class="circle05"></div>
+          <div class="circle06"></div>
+          <div class="circle04"></div><img class="illust_guide01" src="/img/illust/woman_guide01.png"/>
+        </div>
+      </div>
+    </div>
+    <div id="sec_problem">
+      <div class="container">
+        <h1 class="problem_heading">
+          <div><span>こんなお悩み、ありませんか？</span></div>
+        </h1>
+        <p class="problem_intro">ランディングページの制作時、<br/>イラスト素材集めで困った経験はありませんか？</p>
+        <div class="problem_textarea">
+          <div class="problem_textBox01">
+            <h2 class="problem_textBox_titel">ぴったりあう表情がない</h2>
+            <p>シーンに合わせていろんな表情パターンがほしい。でも１〜２種類しか見つからない。</p>
+          </div>
+          <div class="sample_expression"><img class="sample_bad" src="/img/illust/lp-sample_bad.png"/><img class="sample_good" src="/img/illust/lp-sample_good.png"/></div>
+          <div class="problem_textBox02">
+            <h2 class="problem_textBox_titel">絵柄が違うので統一感がでない</h2>
+            <p>いろんなサイトからイラストを集めてきたけど、全体のイメージがバラバラに...</p>
+          </div>
+          <div class="sample_woman"><img class="sample_woman01" src="/img/illust/lp-sample_woman01.png"/><img class="sample_woman02" src="/img/illust/lp-sample_woman02.png"/></div><img class="illust_designer01" src="/img/illust/woman_designer01.png"/>
+        </div>
+      </div>
+    </div>
+    <div id="sec_solution">
+      <div class="container">
+        <h1 class="solution_heading">
+          <div><span>イラストクリップなら</span></div>
+          <div><span>表情豊かなイラストがセットで見つかる！</span></div>
+        </h1>
+        <div class="solution_illustArea"><img class="illust_designer02" src="/img/illust/woman_designer02.png"/><img class="illust_illustSet" src="/img/illust/lp-sample_illustclip.png"/><img class="illust_guide04" src="/img/illust/woman_guide04.png"/>
+          <div class="solution_description">
+            <p>いろんなパターンのイラストをセットで用意しているので、素材を探すのも簡単！</p>
+            <p>面倒な会員登録はなく、すぐに利用出来るので、制作時間も短縮！</p>
+          </div>
+        </div>
+        <ul class="solution_point">
+          <li>素材は全て無料！</li>
+          <li>商用利用も可能！</li>
+          <li>クレジット表記不要！</li>
+        </ul>
+      </div>
+    </div>
+    <div id="sec_usage">
+      <div class="container">
+        <h1 class="usage_heading">
+          <div><span>様々な場面で利用できます！</span></div>
+        </h1>
+        <div class="usage_description">
+          <p>ランディングページはもちろん、企画書やプレゼン資料にも使用できます！</p>
+          <p>企画書やプレゼン資料がうまく作れないという方も、<br/>イラストを追加するだけで簡単に、見やすく、わかりやすい資料が作れます！</p>
+        </div>
+        <ul class="usage_scenes">
+          <li class="usage_scene">
+            <dl>
+              <dd class="usage_scenes_img"><img src="/img/illust/item_pc.png"/></dd>
+              <dt class="usage_scenes_heading">ランディングページ</dt>
+            </dl>
+          </li>
+          <li class="usage_scene">
+            <dl>
+              <dd class="usage_scenes_img"><img src="/img/illust/item_proposal.png"/></dd>
+              <dt class="usage_scenes_heading">企画書の制作</dt>
+            </dl>
+          </li>
+          <li class="usage_scene">
+            <dl>
+              <dd class="usage_scenes_img"><img src="/img/illust/item_slide.png"/></dd>
+              <dt class="usage_scenes_heading">プレゼン資料</dt>
+            </dl>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div id="sec_faq">
+      <div class="container">
+        <h1 class="faq_heading">
+          <div><span>利用規約</span></div>
+        </h1>
+        <div class="faq_illustArea"><img class="illust_designer03" src="/img/illust/woman_designer03.png"/><img class="illust_guide03" src="/img/illust/woman_guide03.png"/>
+          <div class="faq_textarea">
+            <div class="faq_question">Q.イラストを使用したいのですが有料ですか？</div>
+            <div class="faq_answer">A.全て無料でお使い頂けます。</div>
+            <div class="faq_question">Q.会員登録などは必要ですか？</div>
+            <div class="faq_answer"> A.登録などは一切必要ありません。好きなイラスト素材をダウンロードするだけで自由に利用できます。</div>
+            <div class="faq_question">Q.Webサイトやリーフレット等、商用利用できますか？</div>
+            <div class="faq_answer">A.商用可能なフリー素材です。使用許諾やクレジット表記は不要です。ただしイラストそのものを素材として再配布、販売する行為は認めていません。</div>
+            <div class="faq_question">Q.イラストのリクエストは可能ですか？</div>
+            <div class="faq_answer"> A.できるだけ対応しますので、リクエストフォームよりご連絡ください。</div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="sec_creator">
+      <div class="container">
+        <h1 class="creator_heading">
+          <div><span>描いてる人</span></div>
+        </h1>
+        <div class="creator_profile">
+          <div class="creator_profile_img"><img class="icon" src="/img/yasui.jpg"/></div>
+          <div class="creator_profile_detail">
+            <ul>
+              <dt class="creator_profile_name">安井 利紗</dt>
+              <dd class="creator_profile_position">株式会社chatbox デザイナー</dd>
+              <dd class="creator_profile_description">大学時代イラスレ−ション学科を専攻。Web制作会社にてインターン勤務を得て、現在はWebデザイナーとして働いています。<br/><br/>自分の強みを活かしクリエイターとしてもっと色々な方の役に立ちたいと思い、イラスト素材サイトを運営することなりました。<br/>イラストやデザインのお仕事募集中です。<br/>お仕事のご相談はchatboxお問い合わせページからお願いします。</dd>
+            </ul>
+          </div>
+        </div><a class="btn_chatbox" href="https://chatbox-inc.com/contact/" target="">chatboxお問い合わせページへ<img class="symbol" src="/img/logo_chatbox-symbol.svg"/></a>
+      </div>
+    </div>
+    <div id="sec_request">
+      <div class="container">
+        <h1 class="request_heading">
+          <div><span>リクエスト受付フォーム</span></div>
+        </h1>
+        <p class="request_description">リクエスト受付中です。イラストのご要望がございましたらフォームよりご連絡ください。</p>
+        <div class="request_form">
+          <div class="request_form_name">
+            <input type="text" placeholder="お名前"/>
+          </div>
+          <div class="request_form_textarea">
+            <textarea placeholder="内容"></textarea>
+          </div><a class="btn_confirm" href="#"><span>確認画面へ</span><i class="fa fa-paper-plane-o" aria-hidden="true"></i></a>
+        </div>
+      </div>
+    </div>
+    <div class="action_backTop"><a class="btn_backTop" href="/"><span>TOPに戻る</span><i class="fa fa-home" aria-hidden="true"></i></a></div>
+  </div>
+</template>
+
+<script>
+  export default {
+    async fetch ({ store, params }) {
+      await store.dispatch('fetchIllust')
+    },
+    data () {
+      return {
+        online: true
+      }
+    },
+    computed: {
+      illustList () {
+        return this.$store.state.illust
+      }
+    },
+    mounted () {
+      console.log('hoge')
+      if (!window.navigator) {
+        this.online = false
+        return
+      }
+      this.online = Boolean(window.navigator.onLine)
+      window.addEventListener('offline', this._toggleNetworkStatus)
+      window.addEventListener('online', this._toggleNetworkStatus)
+    },
+    methods: {
+      _toggleNetworkStatus ({ type }) {
+        this.online = type === 'online'
+      }
+    },
+    destroyed () {
+      window.removeEventListener('offline', this._toggleNetworkStatus)
+      window.removeEventListener('online', this._toggleNetworkStatus)
+    }
+  }
+</script>
+
+<style>
+
+</style>
