@@ -1,0 +1,73 @@
+/*トップページ*/
+.pageTop_illustLists {
+  text-align: center;
+}
+
+.pageTop_illustLists_illust {
+  margin: 0 20px 70px;
+  display: inline-block;
+  width: 40%;
+  position: relative;
+  z-index: 100;
+
+  @include mediaSP {
+    width: 90%;
+  }
+
+  &:before {
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-image: linear-gradient(-45deg, #fff 25%, #FECEBF 25%, #FECEBF 50%, #fff 50%, #fff 75%, #FECEBF 75%, #FECEBF);
+    border-radius: 3px;
+    background-size: 8px 8px;
+    right: -4px;
+    top: 3px;
+    z-index: -1;
+  }
+  a {
+    display: inline-block;
+    padding: 15px 15px 20px;
+    border-bottom: solid 3px #EB856A;
+    width: 100%;
+    box-sizing: border-box;
+    background: #fff;
+    text-decoration: none;
+
+    &:hover {
+      transform: translate(4px,3px);
+    }
+    &:after {
+      content: "";
+      position: absolute;
+      background-image: url('/img/icon_clip.svg');
+      height: 40px;
+      width: 52px;
+      margin-left: 50%;
+      left: -26px;
+      top: -30px;
+    }
+  }
+  .thumbnail {
+    height: 180px;
+    padding-top:20px;
+    & img {
+      height: 100%;
+    }
+  }
+  h3 {
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    color: #7E7E7E;
+    font-size: 1.5rem;
+    padding: 15px 0 10px 0;
+  }
+  p {
+    display: inline-block;
+    font-size: 14px;
+    width: 100%;
+    color: #9C9D9F;
+  }
+}

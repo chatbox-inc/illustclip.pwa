@@ -1,0 +1,54 @@
+@import "./common/_mixin.scss";
+@import "./common/_reset.scss";
+@import "./common/_header.scss";
+@import "./common/_footer.scss";
+
+ html,body {
+   background: #EA6D53;
+ }
+
+body {
+  //background: #F7F5F3;
+  min-width: 320px;
+  font-family: "游ゴシック", "Yu Gothic", "游ゴシック体", "YuGothic", "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "Meiryo UI", "メイリオ", Meiryo, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif !important;
+  border: solid 10px #EA6D53;
+  box-sizing: border-box;
+  font-size: 14px;
+  line-height: 1.4;
+  color: #7E7E7E;
+}
+#contents {
+  @include marginHeader;
+  background: #fff;
+}
+
+
+.container {
+  max-width: 980px;
+  height: auto;
+  margin: 0 auto;
+  @include mediaSP {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 0 15px;
+  }
+}
+a{
+  cursor: pointer;
+}
+button{
+  cursor: pointer;
+}
+
+img {
+  vertival-align:bottom;
+}
+
+.action_backTop {
+  display: block;
+  text-align: center;
+  .btn_backTop {
+    @include btn_backTop;
+  }
+
+}
