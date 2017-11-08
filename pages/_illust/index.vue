@@ -11,8 +11,8 @@
           <div class="feature-text">
             <h3>
               {{illust.title}}
-              <p v-for="line in illust.summary">{{line}}</p>
             </h3>
+            <p v-for="line in illust.summary">{{line}}</p>
           </div>
           <div class="downloader"><a :href="illust.download" :download="illust.zipname">
             <button>全てをダウンロード</button></a>
