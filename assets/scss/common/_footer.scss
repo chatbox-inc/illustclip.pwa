@@ -37,7 +37,8 @@
 
   .footer_nav {
     display: flex;
-    justify-content: center;
+    -webkit-justify-content: space-between; /* Safari */
+    justify-content:         space-between;
     width: 100%;
     margin-bottom: 60px;
 

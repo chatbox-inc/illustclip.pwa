@@ -44,7 +44,8 @@
 
   .header_nav {
     display: flex;
-    justify-content: center;
+    -webkit-justify-content: space-between; /* Safari */
+    justify-content:         space-between;
     width: 100%;
     margin-bottom: 20px;
 
@@ -54,7 +55,7 @@
 
     .header_navLink {
       margin-right: 10px;
-      min-width: 20%;
+      min-width: 23%;
       list-style: none;
       color: #EA6D53;
       text-decoration: none;

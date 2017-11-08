@@ -96,8 +96,9 @@
 }
 
 .back-to-top {
-  margin-top: 50px;
   text-align: center;
+  padding-bottom: 80px;
+  margin-top: 40px;
   & button {
     @include white-button();
     letter-spacing: normal;
