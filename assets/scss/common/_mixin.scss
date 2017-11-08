@@ -41,7 +41,7 @@
   border: solid 1px #EA6D53;
   color: #EA6D53;
   outline: none;
-  transition: ease 0.4s;
+  transition: ease 0.2s;
   &:hover{
     background:#EA6D53;
     color:#fff;
@@ -49,14 +49,15 @@
   }
 }
 @mixin orange-button(){
-  display: inline-block;
   border-radius: 30px;
   padding: 8px 35px 8px 35px;
   font-size: 13px;
   background: #EA6D53;
   text-decoration: none;
   color: #fff;
+  border: solid 1px #EA6D53;
   outline: none;
+  transition: ease 0.2s;
 
   span {
     display: inline-block;
@@ -66,7 +67,8 @@
     font-size: 1rem;
   }
   &:hover{
-    opacity: .7;
+    background:#fff;
+    color:#EA6D53;
   }
 }
 
