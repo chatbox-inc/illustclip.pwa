@@ -1,6 +1,8 @@
 const axios = require('axios')
+const config = require('config');
 
 module.exports = {
+  env:config.get('firebaseConfig'),
   /*
   ** Build configuration
   */
@@ -66,7 +68,8 @@ module.exports = {
     '@nuxtjs/sitemap'
   ],
   plugins: [
-    { src: '~plugins/ga.js', ssr: false }
+    { src: '~plugins/ga.js', ssr: false },
+    { src: '~plugins/fcm.js', ssr: false }
   ],
   sitemap: {
     path: '/sitemap.xml',

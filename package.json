@@ -8,6 +8,8 @@
     "@nuxtjs/pwa": "latest",
     "@nuxtjs/sitemap": "0.0.3",
     "axios": "^0.16.2",
+    "config": "^1.28.1",
+    "firebase": "^4.7.0",
     "node-sass": "^4.5.3",
     "nuxt": "latest",
     "sass-loader": "^6.0.6"
