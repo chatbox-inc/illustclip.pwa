@@ -1,6 +1,8 @@
 const axios = require('axios')
+const config = require('config');
 
 module.exports = {
+  env:config.get('firebaseConfig'),
   /*
   ** Build configuration
   */
@@ -62,6 +64,28 @@ module.exports = {
   ** Modules
   */
   modules: [
-    '@nuxtjs/pwa'
-  ]
+    '@nuxtjs/pwa',
+    '@nuxtjs/sitemap'
+  ],
+  plugins: [
+    { src: '~plugins/ga.js', ssr: false },
+    { src: '~plugins/fcm.js', ssr: false }
+  ],
+  sitemap: {
+    path: '/sitemap.xml',
+    hostname: 'https://www.illust-clip.design/',
+    cacheTime: 1000 * 60 * 15,
+    generate: false, // Enable me when using nuxt generate
+    async routes () {
+      const rtn = []
+      const {data} = await axios.get('https://www.illust-clip.design/api.json')
+      for (let key in data) {
+        rtn.push('/' + key)
+        for (let subkey in data[key].imgset) {
+          rtn.push('/' + key + '/' + subkey)
+        }
+      }
+      return rtn
+    }
+  }
 }
